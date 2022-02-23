@@ -1,0 +1,15 @@
+#! /bin/sh
+
+if [ $# -eq 0 ]; then
+    echo "No argument..."
+    exit 1
+fi
+
+if [ ${1} -lt 0 ]; then
+    cd /mnt/c/Users/$USER && shutdown.exe -a
+    echo "Shutdown canceled!"
+else 
+    mins=$((${1}*60))
+    cd /mnt/c/Users/$USER && shutdown.exe -s -t $mins
+    echo "Shutting down in ${1} minutes..."
+fi

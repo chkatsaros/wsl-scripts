@@ -1,0 +1,3 @@
+#! /bin/sh
+
+cd /mnt/c/Users/$USER && shutdown.exe -r -t 0
