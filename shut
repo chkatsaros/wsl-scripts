@@ -6,10 +6,10 @@ if [ $# -eq 0 ]; then
 fi
 
 if [ ${1} -lt 0 ]; then
-    cd /mnt/c/Users/$USER && shutdown.exe -a
+    shutdown.exe -a
     echo "Shutdown canceled!"
 else 
     mins=$((${1}*60))
-    cd /mnt/c/Users/$USER && shutdown.exe -s -t $mins
+    shutdown.exe -s -t $mins
     echo "Shutting down in ${1} minutes..."
 fi
