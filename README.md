@@ -26,7 +26,7 @@ A bunch of custom scripts for my WSL setup through various computers.
 
 ### Description
 
-**reboot** is a script that utilizes the <code>shutdown.exe</code> windows command in order to reboot the computer after given minutes. If the minutes given are less than 0 the reboot process is canceled. If no argument is given the computer starts rebooting. 
+**reboot** is a script that utilizes the <code>shutdown.exe</code> windows command in order to reboot the computer after given minutes. If the minutes given are less than zero the reboot process is canceled. If no argument is given the computer starts rebooting. 
 
 ### How to execute
 
