@@ -15,7 +15,7 @@ A bunch of custom scripts for my WSL setup through various computers.
 
 ### Description
 
-**shut** is a script that utilizes the <code>shutdown.exe</code> windows command in order to shutdown the computer after given minutes. If the minutes given are less than 0 the shutdown process is canceled. If no argument is given an error message appears. 
+**shut** is a script that utilizes the <code>shutdown.exe</code> windows command in order to shutdown the computer after given minutes. If the minutes given are less than zero the shutdown process is canceled. If no argument is given an error message appears. 
 
 ### How to execute
 
