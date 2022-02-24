@@ -22,3 +22,14 @@ A bunch of custom scripts for my WSL setup through various computers.
 - Shutdown the computer in 10 minutes: <code>shut 10</code>
 - Cancel previously set shutdown: <code>shut -1</code>
 
+## reboot
+
+### Description
+
+**reboot** is a script that utilizes the <code>shutdown.exe</code> windows command in order to reboot the computer after given minutes. If the minutes given are less than 0 the reboot process is canceled. If no argument is given the computer starts rebooting. 
+
+### How to execute
+
+- Reboot the computer: <code>reboot</code>
+- Reboot the computer in 10 minutes: <code>reboot 10</code>
+- Cancel previously set shutdown: <code>reboot -1</code>
