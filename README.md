@@ -32,4 +32,4 @@ A bunch of custom scripts for my WSL setup through various computers.
 
 - Reboot the computer: <code>reboot</code>
 - Reboot the computer in 10 minutes: <code>reboot 10</code>
-- Cancel previously set shutdown: <code>reboot -1</code>
+- Cancel previously set reboot: <code>reboot -1</code>
