@@ -33,3 +33,14 @@ A bunch of custom scripts for my WSL setup through various computers.
 - Reboot the computer: <code>reboot</code>
 - Reboot the computer in 10 minutes: <code>reboot 10</code>
 - Cancel previously set reboot: <code>reboot -1</code>
+
+## delete-branches
+
+### Description
+
+**delete-branches** is a script that deletes all *local* branches except of "master" branch. In order to execute it, you will have to be checked-out in "master" branch itself. 
+
+### How to execute
+
+- Checkout at master: <code>git checkout master</code>
+- Execute delete-branches: <code>delete-branches</code>
