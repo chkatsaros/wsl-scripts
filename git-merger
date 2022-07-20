@@ -10,7 +10,10 @@ while IFS= read -r line; do
         echo "Merging \"master\" into \"${my_array[i]}\"..."
         git checkout ${my_array[i]}
         git merge master
+        echo ""
     fi
     
     ((i++))
 done < <( git branch | cut -c 3- )
+
+git checkout master
