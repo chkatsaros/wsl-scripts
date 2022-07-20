@@ -49,7 +49,7 @@ A bunch of custom scripts for my WSL setup through various computers.
 
 ### Description
 
-**git-merger** is a script that merges all *local* branches - except of "master" itself - with the "master" branch. The main case of usage is when the user executes a git pull while in the "master" branch and wants to also update local branches accordingly. 
+**git-merger** is a script that merges all *local* branches - except of "master" itself - with the "master" branch. The main case of usage is when the user executes a git pull while in the "master" branch and wants to also update the local branches accordingly. 
 
 ### How to execute
 
