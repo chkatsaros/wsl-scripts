@@ -1,0 +1,16 @@
+#! /bin/bash
+
+my_array=()
+i=0
+
+while IFS= read -r line; do
+    my_array+=( "$line" )
+    
+    if [ "${my_array[i]}" != "master" ]; then
+        echo "Merging \"master\" into \"${my_array[i]}\"..."
+        git checkout ${my_array[i]}
+        git merge master
+    fi
+    
+    ((i++))
+done < <( git branch | cut -c 3- )

@@ -44,3 +44,13 @@ A bunch of custom scripts for my WSL setup through various computers.
 
 - Checkout at master: <code>git checkout master</code>
 - Execute delete-branches: <code>delete-branches</code>
+
+## git-merger
+
+### Description
+
+**git-merger** is a script that merges all *local* branches - except of "master" itself - with the "master" branch. The main case of usage is when the user executes a git pull while in the "master" branch and wants to also update local branches accordingly. 
+
+### How to execute
+
+- Inside the repository directory: <code>git-merger</code>
