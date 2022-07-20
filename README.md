@@ -38,12 +38,11 @@ A bunch of custom scripts for my WSL setup through various computers.
 
 ### Description
 
-**delete-branches** is a script that deletes all *local* branches except of "master" branch. In order to execute it, you will have to be checked-out in "master" branch itself. 
+**delete-branches** is a script that deletes all *local* branches except of "master" branch. Be careful when using **delete-branches** as it uses force delete to delete branches. 
 
 ### How to execute
 
-- Checkout at master: <code>git checkout master</code>
-- Execute delete-branches: <code>delete-branches</code>
+- Inside the repository directory: <code>delete-branches</code>
 
 ## git-merger
 
